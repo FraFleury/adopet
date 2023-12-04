@@ -1,6 +1,6 @@
 package br.com.adopet.controller;
 
-import br.com.adopet.domain.tutor.DadosAutenticacao;
+import br.com.adopet.domain.tutor.dto.DadosAutenticacao;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
