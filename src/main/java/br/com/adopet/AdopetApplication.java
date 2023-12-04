@@ -1,4 +1,4 @@
-package br.com.adopet.adopet;
+package br.com.adopet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
