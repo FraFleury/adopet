@@ -4,7 +4,6 @@ import br.com.adopet.domain.ValidacaoException;
 import br.com.adopet.domain.tutor.dto.DadosAtualizacaoTutor;
 import br.com.adopet.domain.tutor.dto.DadosCadastroTutor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.parameters.P;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -55,7 +54,7 @@ public class TutorService {
         return tutor;
     }
 
-    public void excluirTutor(Long id) {
+    public void excluiTutor(Long id) {
         Tutor tutor = tutorRepository.getReferenceById(id);
         tutor.setAtivo(false);
     }

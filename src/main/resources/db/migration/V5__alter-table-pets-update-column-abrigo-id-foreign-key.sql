@@ -1,0 +1,1 @@
+alter table pets add foreign key (abrigo_id) references abrigos(id);

@@ -1,0 +1,1 @@
+alter table pets add abrigo_id bigint;

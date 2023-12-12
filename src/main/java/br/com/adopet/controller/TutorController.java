@@ -53,7 +53,7 @@ public class TutorController {
     @DeleteMapping("/{id}")
     @Transactional
     public ResponseEntity excluir(@PathVariable Long id) {
-        tutorService.excluirTutor(id);
+        tutorService.excluiTutor(id);
         return ResponseEntity.noContent().build();
     }
 }
